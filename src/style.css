@@ -43,5 +43,5 @@ input[type=checkbox] {
 }
 
 input[input=checkbox]:focus {
-	outline: 2;
+	outline: 0;
 }
