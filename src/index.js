@@ -1,15 +1,9 @@
 import React from 'react';
 import ReactDom from 'react-dom';
+import App from './App'
+import './style.css'
 
 ReactDom.render(
-	<div>
-		<h1>Hello World!</h1>
-		<p>This is a paragraph</p>
-		<ul>
-			<li>Apples</li>
-			<li>Pears</li>
-			<li>Bananas</li>
-		</ul>
-	</div>,
-	document.getElementById("root")
+	<App />,
+	document.getElementById('root')
 )
