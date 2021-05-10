@@ -4,6 +4,7 @@ body {
 
 h1 {
 	text-align: center;
+	color: rgb(70, 130, 134);
 }
 
 .todo-list {
@@ -26,5 +27,21 @@ h1 {
 .todo-item {
 	display: flex;
 	justify-content: flex-start;
-	
+	align-items: center;
+	padding: 30px 20px 0;
+	width: 70%;
+	border-bottom: 1px solid #cecece;
+	font-family: Roboto, sans-serif;
+	font-weight: 100;
+	font-size: 15px;
+	color: #333;
+}
+
+input[type=checkbox] {
+	margin-right: 10px;
+	font-size: 30px;
+}
+
+input[input=checkbox]:focus {
+	outline: 2;
 }
